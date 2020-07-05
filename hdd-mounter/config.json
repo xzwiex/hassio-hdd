@@ -3,11 +3,16 @@
   "version": "1",
   "slug": "hello_world",
   "description": "HDD mounter",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
   "startup": "before",
   "boot": "auto",
-  "options": {
-    "devices": ["/dev/sda:/dev/sda/rwm"]
-  },
+  "full_access": true,
+  "options": {},
   "schema": {}
 }
